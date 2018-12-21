@@ -9,9 +9,9 @@ public class ShowInRange {
         int min = scan.nextInt();
         System.out.println("Веедите максимальное число");
         int max = scan.nextInt();
-        for (int i = min; i < max; i++) {
+        for (int i = min; i < max+1; i++) {
             if (i % 2 == 0) {
-                System.out.println(i);
+                System.out.println("В диапазоне число четное - " + i);
 
             }
 
